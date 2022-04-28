@@ -45,7 +45,7 @@ def submit():
         p12 = float(request.form["p12"])
         p13 = float(request.form["p13"])
 
-    prediction = pred(p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, datos)
+    prediction = int(pred(p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, datos))+1
 
     # py -- HTML
     
